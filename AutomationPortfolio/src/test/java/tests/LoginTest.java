@@ -47,6 +47,7 @@ public class LoginTest {
 		LoginPage lp = new LoginPage(driver);
 		
 		priorityObj = lp.login(testDataLoginRowNum);
+		System.out.println("x");
 
 	}
 	
