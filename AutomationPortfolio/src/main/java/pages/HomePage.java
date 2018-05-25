@@ -46,8 +46,8 @@ public class HomePage {
 		ExcelUtil.readSheet(TestData.dataSheetName);
 	}
 	
-	public void HomeInfoPage2submit(int testDataRow) throws InterruptedException {
-		 submit(ExcelUtil.getValue(testDataRow, TestData.addressCol),
+	public HomeInfoPage2 submit(int testDataRow) throws InterruptedException {
+		 return submit(ExcelUtil.getValue(testDataRow, TestData.addressCol),
 				ExcelUtil.getValue(testDataRow, TestData.address2Col),
 				ExcelUtil.getValue(testDataRow, TestData.cityCol),
 				ExcelUtil.getValue(testDataRow, TestData.stateCol),

@@ -56,7 +56,7 @@ public class LoginTest {
 		try {
 			currentMortgageObj=priorityObj.clickSave(testDataPriorityNum);
 			homepageObj = currentMortgageObj.submit(testDataCurrMortRowNum);
-			homeInfoPage2obj =homepageObj.
+			homeInfoPage2obj =homepageObj.submit(testDataHomePageRowNum);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
