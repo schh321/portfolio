@@ -57,8 +57,8 @@ public class LoginPage {
 		password.sendKeys(inputPassword);
 		signin.click();
 
-		WebDriverWait wait = new WebDriverWait(driver, 100);
-		wait.until(ExpectedConditions.presenceOfElementLocated(priorityLevel));
+		/*WebDriverWait wait = new WebDriverWait(driver, 100);
+		wait.until(ExpectedConditions.presenceOfElementLocated(priorityLevel));*/
 
 		return new PriorityPage(driver);
 

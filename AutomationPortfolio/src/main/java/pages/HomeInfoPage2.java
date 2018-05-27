@@ -14,7 +14,7 @@ public class HomeInfoPage2 {
   public HomeInfoPage2(WebDriver driver) {
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
-		ExcelUtil.readSheet(TestData.dataSheetName);
+		//ExcelUtil.readSheet(TestData.dataSheetName);
 	}
  
 
